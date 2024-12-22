@@ -1,0 +1,105 @@
+
+body {
+    background-color: #f9f1e7;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #e8c6ae;
+    background-color: #fff9f3;
+}
+
+h1 {
+    text-align: center;
+    color: #8c1f1f;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e8c6ae;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #8c1f1f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a63030;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.Logo {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.form-table {
+    text-align: center;
+}
+.privilege-box {
+    display: inline-block;
+    width: 220px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.privilege-box img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px; /* Espacio entre la imagen y el botón */
+    transition: transform 0.2s ease-in-out;
+}
+
+.privilege-box input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.privilege-box input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.2);
+}
